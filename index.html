@@ -1,0 +1,179 @@
+<html lang="es">
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>Pardo Studio</title>
+            <link rel="stylesheet" href="styles.css">
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+            <style>
+                * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f8f8f8;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .header {
+                    background-color: yellow;
+                    width: 100%;
+                    padding: 50px 0;
+                    position: relative;
+                }
+                .logo-container {
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: white;
+                    border-radius: 50%;
+                    padding: 10px;
+                }
+                .logo {
+                    width: 130px;
+                    height: 130px;
+                    border-radius: 50%;
+                }
+                .container {
+                    background: white;
+                    margin: 80px auto 20px;
+                    padding: 20px;
+                    width: 90%;
+                    max-width: 400px;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                }
+                .links {
+                    margin-top: 20px;
+                    text-decoration: none;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                .link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #f0f0f0;
+                    padding: 15px;
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                    transition: background 0.3s;
+                    
+                }
+                .link:hover {
+                    background: #e0e0e0;
+                }
+                .icon {
+                    font-size: 24px;
+                    margin-right: 15px;
+                    width: 50px;
+                    text-align: center;
+                }
+                .link div {
+                    flex-grow: 1;
+                    text-align: left;
+                }
+                .link i:last-child {
+                    color: gray;
+                    margin-left: auto;
+                }
+                footer{
+                    background-color: #e0e0e0;
+                    width: -moz-available;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    color: #787777;
+                }
+                @media (max-width: 480px) {
+                    .logo {
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .container {
+                        width: 95%;
+                        padding: 15px;
+                    }
+                    .link {
+                        padding: 12px;
+                    }
+                    .icon {
+                        font-size: 20px;
+                        width: 30px;
+
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <div class="logo-container">
+                    <img src="/imgs/fnd.jpg" alt="Pardo Studio Logo" class="logo">
+                </div>
+            </div>
+            <div class="container">
+                <h2>Encuéntranos en Facebook</h2><br>
+                <p>Pardo Studio fotografía y video para toda ocasión.</p><br>
+                <hr>
+                <br><h3>Encuéntranos en</h3>
+                <div class="links">
+                    <a href="https://www.facebook.com/Fotografiavideoeventos">
+                        <div class="link">
+                            <i class="fab fa-facebook icon"> <img src="/imgs/facevook.png" alt="Facebook" class="icon"></i>
+                            <div>
+                                <strong>Facebook</strong>
+                                <p>Síguenos</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                   </a>
+
+                    <a href="https://wa.me/526561962999">
+                        <div class="link">
+                            <i class="fab fa-whatsapp icon"> <img src="/imgs/whats.png" alt="WhatsApp" class="icon"></i>
+                         
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>Contáctanos</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/ciPFLCt4opAC6uWk7">
+                        <div class="link">
+                            <i class="fas fa-globe icon"> <img src="/imgs/Google_Maps.png" alt="Goolge maps" class="icon"></i>
+                            <div>
+                                <strong>Donde encontrarnos</strong>
+                                <p>Sucursal Santiago troncoso</p>
+                            </div>
+                            <i class="fas fa-arrow-right"> </i>
+                        </div>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/fNY2RFeX4stCQaQL8">
+                        <div class="link">
+                            <i class="fas fa-globe icon"> <img src="/imgs/Google_Maps.png" alt="Google Maps" class="icon"></i>
+                            <div>
+                                <strong>Donde encontrarnos</strong>
+                                <p>Sucursal Henequen</p>
+                            </div>
+                            <i class="fas fa-arrow-right"> </i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </body>
+        <footer>
+            <h3><strong>@Studios Pardo Cd Juarez</strong></h3>
+        </footer>
+        </html>
+        
